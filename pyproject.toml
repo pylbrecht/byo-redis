@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "byo-redis"
+version = "0.1.0"
+description = "Build your own Redis"
+authors = ["Philipp Albrecht <palbrecht@mailbox.org>"]
+readme = "README.md"
+packages = [{include = "byo_redis", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
